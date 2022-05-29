@@ -1,0 +1,42 @@
+[
+  {
+    "number": 1,
+    "id": 6,
+    "question": "Stevan is 2-times as old as David. Stevan will be 3-times as old as Martin in 2 years. If Martin is 10 years old currently, what will be the summation of their ages (all three) after 20 years?"
+  },
+
+  {
+    "number": 2,
+    "id": 912,
+    "question": "In a maths test, Alice got 414 marks which was 47 less than Bob's marks. The marks of Charlotte were 48% of the sum of Alice and Bob’s marks together or 52.5% of the total marks. If the marks of Danny was 32 more than that of Charlotte's marks. Find how much percent did Danny get in that examination?",
+    "answer": "56.5%"
+  },
+  {
+    "number": 3,
+    "id": 4,
+    "question": "While going on vacation by car, Adam travels the first 7 hours at 190mph speed in a highway and the remaining 11 hours at 34mph in a hilly road. Calculate the average speed of Adam in mph?"
+  },
+  {
+    "number": 4,
+    "id": 913,
+    "question": "Let a1 a2 a3n be an arithmetic progression with a1 = 3 and a2 = 7. If a1+ a2 +...+ a3n= 1830, then what is the smallest positive integer m such that m(a1+ a2 +...+ an) > 1830?",
+    "answer": "9"
+  },
+  {
+    "number": 5,
+    "id": 914,
+    "question": "What should be the next number (in place of ?) in the series: 37, 64, -61, 282, -447, ?",
+    "answer": "884"
+  },
+  {
+    "number": 6,
+    "id": 915,
+    "question": "A numbers 17, 21, 30, 55, 104, 225 forms a series. If 2414 is the nth term of the above given series, then find the value of n",
+    "answer": "10"
+  },
+  {
+    "number": 7,
+    "id": 2,
+    "question": "What should be the next number (in place of ?) in the series: 7, 56, 189, 448, ?"
+  }
+]
