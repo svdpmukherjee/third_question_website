@@ -2,8 +2,8 @@
   {
     "number": 1,
     "id": 980,
-    "question": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to?",
-    "answer": "25"
+    "question": "A number when divided by a divisor leaves a remainder of 24. When twice the original number is divided by the same divisor, the remainder is 11. What is the value of the divisor?",
+    "answer": "37"
   },
   {
     "number": 2,
@@ -13,8 +13,9 @@
   },
   {
     "number": 3,
-    "id": 5,
-    "question": "In Thanksgiving, Mr Larry Bowden decided to distribute some candies among his friends in a manner that he gives half of his total stock of candies and one extra to the first friend, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausted after he gave away to 4 friends. How many candies were there in his stock initially?"
+    "id": 988,
+    "question": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to?",
+    "answer": "25"
   },
   {
     "number": 4,
@@ -24,12 +25,12 @@
   },
   {
     "number": 5,
-    "id": 3,
-    "question": "Vincent and Rosetta finally started their long planned farming business. Vincent invested $4332 for 18 months and Rosetta invested $3000 for 13 months. If both of them earned a profit of $2500 after 18 months then what is the share (approx.) of Vincent in that profit?"
+    "id": 6,
+    "question": "During the Christmas vacation in Uganda, Samuel travels the first 7 hours at 190 miles/hour speed in a highway and the remaining 11 hours at 34 miles/hour in a hilly road. Calculate the average speed of Samuel in mph?"
   },
   {
     "number": 6,
-    "id": 6,
+    "id": 1,
     "question": "Xiaowei is double Andrea's age. Xiaowei will be triple Sofia's age in 2 years. If Sofia is 14 years old currently, what will be the summation of their ages (all three) after 20 years?"
   },
   {

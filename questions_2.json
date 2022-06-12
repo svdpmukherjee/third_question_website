@@ -1,19 +1,20 @@
 [
   {
     "number": 1,
-    "id": 7,
-    "question": "Alina and Luce can do a piece of work in 36 days and 81 days respectively. Both together work for 5 days and then Alina leaves off. How many days will Luce take to finish the remaining work?"
+    "id": 5,
+    "question": "A and B can do a piece of work in 36 days and 81 days respectively. Both together work for 5 days and then A leaves off. How many days will B take to finish the remaining work?"
   },
   {
     "number": 2,
     "id": 912,
-    "question": "In a maths test, Alice got 414 marks which was 47 less than Bob's marks. The marks of Charlotte were 48% of the sum of Alice and Bob’s marks together or 52.5% of the total marks. If the marks of Danny was 32 more than that of Charlotte's marks. Find how much percent did Danny get in that examination?",
+    "question": "In a maths test, Alice got 414 marks which was 47 less than Bob's marks. The marks of Charlotte were 48% of the sum of Alice and Bob's marks together or 52.5% of the total marks. If the marks of Danny was 32 more than that of Charlotte's marks. Find how much percent did Danny get in that examination?",
     "answer": "56.5%"
   },
   {
     "number": 3,
-    "id": 4,
-    "question": "During the Christmas vacation in Uganda, Samuel travels the first 7 hours at 190 miles/hour speed in a highway and the remaining 11 hours at 34 miles/hour in a hilly road. Calculate the average speed of Samuel in mph?"
+    "id": 945,
+    "question": "A circle is inscribed in a Rhombus with diagonals 12 cm and 16 cm. The ratio of the area of circle to the area of rhombus is?",
+    "answer": "5pi/25"
   },
   {
     "number": 4,
@@ -35,7 +36,7 @@
   },
   {
     "number": 7,
-    "id": 2,
+    "id": 965,
     "question": "What should be the next number (in place of ?) in the series: 7, 56, 189, 448, ?"
   }
 ]
