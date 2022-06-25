@@ -3,7 +3,7 @@ import React from 'react';
 import questions from '../questions.json';
 import questions_2 from '../questions_2.json';
 import Head from 'next/head';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 
 import { useRouter } from 'next/router';
@@ -19,7 +19,23 @@ export default function Home(props) {
   const [buttonText, setButtonText] = useState('');
   const router = useRouter();
   let deviceType = '';
-  // const [buttonColor, setButtonColor] = useState('');
+
+  useEffect(async () => {
+    isMobile ? (deviceType = 'Mobile') : (deviceType = 'Desktop');
+    let passValue = {
+      website: 'quantwithhenry',
+      ip_address_1: ip_address_1,
+      ip_address_2: ip_address_2,
+      date: new Date().toISOString().substring(0, 10),
+      time: new Date().toISOString().substring(11, 19),
+      deviceType: deviceType,
+      browser: browserName,
+    };
+    let response = await fetch('/api/databaseOperations', {
+      method: 'DELETE',
+      body: JSON.stringify(passValue),
+    });
+  }, [ip_address_1]);
 
   // Show answer button
   const handleShowAnswer = async (event) => {
@@ -28,7 +44,7 @@ export default function Home(props) {
       setNextClickOthers(questionNo);
       setNextClick('');
     } else {
-      let date = new Date().toISOString();
+      // let date = new Date().toISOString();
       // update-database
       let response_put = await fetch('/api/databaseOperations', {
         method: 'PUT',
@@ -38,10 +54,12 @@ export default function Home(props) {
       isMobile ? (deviceType = 'Mobile') : (deviceType = 'Desktop');
       // read-add-database
       let passValue = {
+        website: 'quantwithhenry',
         ip_address_1: ip_address_1,
         ip_address_2: ip_address_2,
         questionNo: questionNo,
-        date: date,
+        date: new Date().toISOString().substring(0, 10),
+        time: new Date().toISOString().substring(11, 19),
         deviceType: deviceType,
         browser: browserName,
       };
