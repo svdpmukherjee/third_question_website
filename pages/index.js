@@ -15,8 +15,8 @@ export default function Home(props) {
   const [nextClick, setNextClick] = useState('');
   const [nextClickOthers, setNextClickOthers] = useState('');
   const [hintClick, setHintClick] = useState('');
-
   const [buttonText, setButtonText] = useState('');
+  const [disabled, setDisabled] = useState(false);
   const router = useRouter();
   let deviceType = '';
 
@@ -40,6 +40,7 @@ export default function Home(props) {
   // Show answer button
   const handleShowAnswer = async (event) => {
     const questionNo = event.target.id.toString();
+    setDisabled(true);
     if (questionNo > 900) {
       setNextClickOthers(questionNo);
       setNextClick('');
@@ -253,6 +254,7 @@ export default function Home(props) {
                                   className=" font-bold text-sm text-teal-500  ml-2"
                                   id={ques.id}
                                   key={ques.number}
+                                  disabled={disabled}
                                   onClick={(e) => handleShowAnswer(e)}
                                 >
                                   View answer
