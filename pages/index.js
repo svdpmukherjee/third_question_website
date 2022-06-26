@@ -327,6 +327,7 @@ export default function Home(props) {
                                   className=" font-bold text-sm text-teal-500 ml-2"
                                   id={ques.id}
                                   key={ques.number}
+                                  disabled={disabled}
                                   onClick={(e) => handleShowAnswer(e)}
                                 >
                                   View answer
