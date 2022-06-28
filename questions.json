@@ -13,24 +13,24 @@
   },
   {
     "number": 3,
+    "id": 6,
+    "question": "During the Christmas vacation in Uganda, Samuel travels the first 7 hours at 190 miles/hour speed in a highway and the remaining 11 hours at 34 miles/hour in a hilly road. Calculate the average speed of Samuel in mph?"
+  },
+  {
+    "number": 4,
     "id": 988,
     "question": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to?",
     "answer": "25"
   },
   {
-    "number": 4,
+    "number": 5,
     "id": 982,
     "question": "On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches two opposite sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is?",
     "answer": "no answer!"
   },
   {
-    "number": 5,
-    "id": 2,
-    "question": "During the Christmas vacation in Uganda, Samuel travels the first 7 hours at 190 miles/hour speed in a highway and the remaining 11 hours at 34 miles/hour in a hilly road. Calculate the average speed of Samuel in mph?"
-  },
-  {
     "number": 6,
-    "id": 6,
+    "id": 2,
     "question": "Xiaowei is double Andrea's age. Xiaowei will be triple Sofia's age in 2 years. If Sofia is 14 years old currently, what will be the summation of their ages (all three) after 20 years?"
   },
   {
