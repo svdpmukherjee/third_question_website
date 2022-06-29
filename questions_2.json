@@ -1,7 +1,7 @@
 [
   {
     "number": 1,
-    "id": 1,
+    "id": 5,
     "question": "A and B can do a piece of work in 36 days and 81 days respectively. Both together work for 5 days and then A leaves off. How many days will B take to finish the remaining work?"
   },
   {
@@ -12,7 +12,7 @@
   },
   {
     "number": 3,
-    "id": 5,
+    "id": 4,
     "question": "Two friends started their long planned farming business. Person 1 invested $4332 for 18 months and Person 2 invested $3000 for 13 months. If both of them earned a profit of $2500 after 18 months then what is the share (approx.) of Person 1 in that profit?"
   },
   {
@@ -29,7 +29,7 @@
   },
   {
     "number": 6,
-    "id": 4,
+    "id": 2,
     "question": "A gentleman decided to distribute some candies among his children in a manner that he gives half of his total stock of candies and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausted after he gave away to 4 children. How many candies were there in his stock initially?"
   },
   {
